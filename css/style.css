@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/SST_Arabic_Medium.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+html, body{
+    position: relative;
+    font-family: 'MyCustomFont', sans-serif;
+    height: 100%;
+  overflow-x: hidden; /* Hide horizontal overflow */
+  overflow-y: auto; /* Allow vertical scrolling if content overflows */
+}
+.navbar{
+    padding: 50px 0;
+}
+.cooming_soon_text {
+    border-top: 1px solid #424143;
+    border-bottom: 1px solid #424143;
+    position: absolute;
+    right: -5%;
+    width: 200%; 
+    padding-left: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.slider_items img{
+    border: 1px solid #424143;
+    border-top: none;
+    width: 200% !important;
+    padding-right: 100%;
+    border-right: none;
+}
+.img_title{
+    border-left: 1px solid #424143;
+    height: 205%;
+    margin-top: -4px;
+    color: #424143;
+    font-weight: 600;
+}
+.border_right{
+    border-right: 1px solid #424143;
+}
+.footer_logo {
+	position: absolute;
+	left: 100%;
+	padding: 20px 0px 38px 25px;
+	border-left: 1px solid #424143;
+	border-top: 1px solid #424143;
+	width: 100%;
+	margin-top: -2px;
+	margin-left: -13px;
+}
+.slick-arrow{
+    display:none !important;
+}
+.slider_items{
+	border-top: 1px solid #424143;
+}
+.cooming_soon_text h3{
+    color: #F7B800;
+    font-weight: 700;
+}
